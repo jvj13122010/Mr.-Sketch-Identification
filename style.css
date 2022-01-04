@@ -1,0 +1,24 @@
+body{
+    background-color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    font-family: cursive;
+    font-size: large;
+    font-weight: lighter;
+}
+
+canvas{
+    border: 5px solid gainsboro;
+    border-radius: 20px;
+    animation-name:example;
+    animation-duration: 4s;
+    margin-top: 80px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px gray;}
+    to{box-shadow: 1px 1px 38px gainsboro;}
+
+}
